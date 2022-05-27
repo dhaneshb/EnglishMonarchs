@@ -1672,25 +1672,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DHB\\.nuget\\packages\\": {},
+    "C:\\Users\\dhane\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DHB\\source\\repos\\EnglishMonarchs\\EnglishMonarch.UnitTests\\EnglishMonarchs.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\dhane\\Source\\Repos\\dhaneshb\\EnglishMonarchs\\EnglishMonarch.UnitTests\\EnglishMonarchs.UnitTests.csproj",
       "projectName": "EnglishMonarchs.UnitTests",
-      "projectPath": "C:\\Users\\DHB\\source\\repos\\EnglishMonarchs\\EnglishMonarch.UnitTests\\EnglishMonarchs.UnitTests.csproj",
-      "packagesPath": "C:\\Users\\DHB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DHB\\source\\repos\\EnglishMonarchs\\EnglishMonarch.UnitTests\\obj\\",
+      "projectPath": "C:\\Users\\dhane\\Source\\Repos\\dhaneshb\\EnglishMonarchs\\EnglishMonarch.UnitTests\\EnglishMonarchs.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\dhane\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dhane\\Source\\Repos\\dhaneshb\\EnglishMonarchs\\EnglishMonarch.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\DHB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dhane\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1700,14 +1700,16 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Projects\\evision.Installers\\EconInstaller\\NugetPackages": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.evision.dk/nuget/Packages": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\DHB\\source\\repos\\EnglishMonarchs\\EnglishMonarchs\\EnglishMonarchs.csproj": {
-              "projectPath": "C:\\Users\\DHB\\source\\repos\\EnglishMonarchs\\EnglishMonarchs\\EnglishMonarchs.csproj"
+            "C:\\Users\\dhane\\Source\\Repos\\dhaneshb\\EnglishMonarchs\\EnglishMonarchs\\EnglishMonarchs.csproj": {
+              "projectPath": "C:\\Users\\dhane\\Source\\Repos\\dhaneshb\\EnglishMonarchs\\EnglishMonarchs\\EnglishMonarchs.csproj"
             }
           }
         }
@@ -1753,12 +1755,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
